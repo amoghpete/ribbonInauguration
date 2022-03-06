@@ -110,7 +110,7 @@ video {
   transition: filter 4s;
 }
 
-video:hover, hr:hover, #ribbonImg:hover {
+video:hover, .ribbon:hover, #ribbonImg:hover {
   cursor: url("assets/scissors.png"), auto;
 }
 
