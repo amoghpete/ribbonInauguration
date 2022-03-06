@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Great+Vibes&display=swap");
+
+canvas {
+  position: fixed;
+  width: 20vw;
+  height: 20vw;
+  background-color: #ffebfa;
+}
+
+html {
+  background-color: #ffebfa;
+  overflow: hidden;
+}
+
+
+#coverImg {
+  background-color: #ffebfa;
+  max-width: 100vw;
+  z-index: -1;
+  position: fixed;
+  bottom: 0%;
+}
+
+#logoImg {
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30vw;
+}
+
+#logoImgLeft {
+  position: fixed;
+  top: 0%;
+  left: 15%;
+  width: 8vw;
+}
+
+#logoImgRight {
+  position: fixed;
+  top: -3%;
+  right: 15%;
+  width: 10vw;
+}
+
+#curtainImgLeft {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+  z-index: 3;
+}
+
+#curtainImgRight {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  transform: scaleX(-1);
+  height: 100vh;
+  z-index: 3;
+}
+
+#titleText {
+  position: fixed;
+  top: 15%;
+  width: 100vw;
+  text-align: center;
+}
+
+#ribbonImg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 10vw;
+  transform: translate(-50%, -50%);
+  transition: transform 1s;
+  z-index: 5;
+}
+
+.ribbon{
+  position: fixed;
+  top: 50%;
+  width: 50vw;
+  padding: 0.6vh;
+  background-color: #D01114!important;
+  transform: translateY(-175%);
+  transition: transform 3s;
+  z-index: 2;
+}
+
+#ribbonLeft{
+    left: 0;
+    transform-origin: 0 100%;
+}
+
+#ribbonRight{
+    right: 0;
+    transform-origin: 100% 0;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 30vw;
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+  filter: blur(5px);
+  transition: opacity 2s;
+  transition: filter 4s;
+}
+
+video:hover, hr:hover, #ribbonImg:hover {
+  cursor: url("/Assets/scissors.png"), auto;
+}
+
+#mainText {
+  position: fixed;
+  bottom: 5%;
+  width: 100vw;
+  text-align: center;
+}
+
+p {
+  font-family: "Amatic SC", cursive;
+  color: #135c85;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  color: #e61f93;
+  font-size: 3rem !important;
+}
+
+#venueText{
+    position: fixed;
+  bottom: 0%;
+  width: 100vw;
+  font-size: 1.5rem;
+  text-align: center;
+}
