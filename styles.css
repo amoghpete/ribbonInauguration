@@ -111,7 +111,7 @@ video {
 }
 
 video:hover, hr:hover, #ribbonImg:hover {
-  cursor: url("Assets/scissors.png"), auto;
+  cursor: url("assets/scissors.png"), auto;
 }
 
 #mainText {
