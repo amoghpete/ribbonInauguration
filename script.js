@@ -1,6 +1,7 @@
 window.onload = function () 
 {
   var videoWrap = document.getElementById("videoWrap");
+  var venueText = document.getElementById("venueText");
   var video = document.getElementById("video");
   var audio = document.getElementById("audio");
   var ribbonImg = document.getElementById("ribbonImg");
@@ -28,6 +29,7 @@ window.onload = function ()
       videoWrap.style.opacity = "1";
       videoWrap.style.filter = "blur(0)";
       videoWrap.style.height = "75vh";
+      venueText.style.paddingBottom = "-15vh"
     }, 500);
     
 
@@ -35,6 +37,9 @@ window.onload = function ()
         setTimeout(function () {
           video.play();
         }, 4000);
+        setTimeout(function () {
+          videoWrap.style.height = "55vh";
+        }, 120000);
     } 
   }
 };
