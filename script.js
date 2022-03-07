@@ -2,6 +2,7 @@ window.onload = function ()
 {
   var videoWrap = document.getElementById("videoWrap");
   var video = document.getElementById("video");
+  var audio = document.getElementById("audio");
   var ribbonImg = document.getElementById("ribbonImg");
   var ribbonLeft = document.getElementById("ribbonLeft");
   var ribbonRight = document.getElementById("ribbonRight");
@@ -19,7 +20,7 @@ window.onload = function ()
   };
 
   function cutFunc() {
-
+    audio.play();
     ribbonImg.style.transform = "translateY(60vh)";
     ribbonLeft.style.transform = "rotate(90deg)";
     ribbonRight.style.transform = "rotate(-90deg)";
