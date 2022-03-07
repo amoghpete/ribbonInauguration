@@ -1,5 +1,6 @@
 window.onload = function () 
 {
+  var videoWrap = document.getElementById("videoWrap");
   var video = document.getElementById("video");
   var ribbonImg = document.getElementById("ribbonImg");
   var ribbonLeft = document.getElementById("ribbonLeft");
@@ -23,9 +24,10 @@ window.onload = function ()
     ribbonLeft.style.transform = "rotate(90deg)";
     ribbonRight.style.transform = "rotate(-90deg)";
     setTimeout(function () {
-      video.style.opacity = "1";
-      video.style.filter = "blur(0)";
-    }, 1500);
+      videoWrap.style.opacity = "1";
+      videoWrap.style.filter = "blur(0)";
+      videoWrap.style.height = "75vh";
+    }, 500);
     
 
     if (video.paused){
