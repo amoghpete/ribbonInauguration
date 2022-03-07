@@ -39,7 +39,7 @@ window.onload = function ()
         }, 4000);
         setTimeout(function () {
           videoWrap.style.height = "55vh";
-        }, 120000);
+        }, 124000);
     } 
   }
 };
